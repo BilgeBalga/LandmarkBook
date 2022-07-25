@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337D8B18288EAB7300714FF8 /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 337D8B13288EAB7300714FF8 /* colosseum.jpg */; };
+		337D8B19288EAB7300714FF8 /* stonehenge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 337D8B14288EAB7300714FF8 /* stonehenge.jpg */; };
+		337D8B1A288EAB7300714FF8 /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 337D8B15288EAB7300714FF8 /* tajmahal.jpg */; };
+		337D8B1C288EAB7300714FF8 /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 337D8B17288EAB7300714FF8 /* greatwall.jpg */; };
+		337D8B1E288EAB9A00714FF8 /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 337D8B1D288EAB9A00714FF8 /* kremlin.jpg */; };
+		337D8B20288EB2F200714FF8 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D8B1F288EB2F200714FF8 /* imageViewController.swift */; };
 		33DC57032888A56B003FC51E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC57022888A56B003FC51E /* AppDelegate.swift */; };
 		33DC57052888A56B003FC51E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC57042888A56B003FC51E /* SceneDelegate.swift */; };
 		33DC57072888A56B003FC51E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC57062888A56B003FC51E /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		337D8B13288EAB7300714FF8 /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		337D8B14288EAB7300714FF8 /* stonehenge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpg; sourceTree = "<group>"; };
+		337D8B15288EAB7300714FF8 /* tajmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpg; sourceTree = "<group>"; };
+		337D8B17288EAB7300714FF8 /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+		337D8B1D288EAB9A00714FF8 /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
+		337D8B1F288EB2F200714FF8 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 		33DC56FF2888A56B003FC51E /* LandmarkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarkBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DC57022888A56B003FC51E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33DC57042888A56B003FC51E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +68,15 @@
 		33DC57012888A56B003FC51E /* LandmarkBook */ = {
 			isa = PBXGroup;
 			children = (
+				337D8B13288EAB7300714FF8 /* colosseum.jpg */,
+				337D8B17288EAB7300714FF8 /* greatwall.jpg */,
+				337D8B14288EAB7300714FF8 /* stonehenge.jpg */,
+				337D8B1D288EAB9A00714FF8 /* kremlin.jpg */,
+				337D8B15288EAB7300714FF8 /* tajmahal.jpg */,
 				33DC57022888A56B003FC51E /* AppDelegate.swift */,
 				33DC57042888A56B003FC51E /* SceneDelegate.swift */,
 				33DC57062888A56B003FC51E /* ViewController.swift */,
+				337D8B1F288EB2F200714FF8 /* imageViewController.swift */,
 				33DC57082888A56B003FC51E /* Main.storyboard */,
 				33DC570B2888A56E003FC51E /* Assets.xcassets */,
 				33DC570D2888A56E003FC51E /* LaunchScreen.storyboard */,
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337D8B19288EAB7300714FF8 /* stonehenge.jpg in Resources */,
 				33DC570F2888A56E003FC51E /* LaunchScreen.storyboard in Resources */,
 				33DC570C2888A56E003FC51E /* Assets.xcassets in Resources */,
+				337D8B1A288EAB7300714FF8 /* tajmahal.jpg in Resources */,
+				337D8B1E288EAB9A00714FF8 /* kremlin.jpg in Resources */,
+				337D8B18288EAB7300714FF8 /* colosseum.jpg in Resources */,
 				33DC570A2888A56B003FC51E /* Main.storyboard in Resources */,
+				337D8B1C288EAB7300714FF8 /* greatwall.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				33DC57072888A56B003FC51E /* ViewController.swift in Sources */,
 				33DC57032888A56B003FC51E /* AppDelegate.swift in Sources */,
+				337D8B20288EB2F200714FF8 /* imageViewController.swift in Sources */,
 				33DC57052888A56B003FC51E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
